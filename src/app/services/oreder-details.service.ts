@@ -15,7 +15,7 @@ export class OrederDetailsService {
       itemName:"Wind chains",
       itemDetails:"swings with winds",
       itemPrice:900,
-      itemImg:"../../assets/item_1.jpg"
+      itemImg:"src/assets/item_1.jpg"
     },
     {
       id:2,
