@@ -15,14 +15,14 @@ export class OrederDetailsService {
       itemName:"Wind chains",
       itemDetails:"swings with winds",
       itemPrice:900,
-      itemImg: url('../../../assets/item_1.jpg')
+      itemImg: "../../../assets/item_1.jpg"
     },
     {
       id:2,
       itemName:"Decorative Vases",
       itemDetails:"this vase can use for decorate inside your home",
       itemPrice:2000,
-      itemImg: url('../../../assets/item_2.png')
+      itemImg: "../../../assets/item_2.png"
     },
     {
       id:3,
