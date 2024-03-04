@@ -1,0 +1,23 @@
+<div class="container mt-5 mb-5">
+
+    <div class="row">
+
+        <div class="col-lg-6" *ngIf="itemData">
+            <a routerLink="../../item" class="btn btn-sm btn-dark mb-3">Back</a>
+            <img src="{{itemData[0].itemImg}}" width="100%" />
+            <h1 class="mt-3">{{itemData[0].itemName}}</h1>
+            <p>{{itemData[0].itemDetails}}</p>
+            <p>{{itemData[0].itemPrice | currency:'LKR '}}</p>
+        </div>
+
+        <div class="col-lg-6 mt-5">
+            <h1>Enter Your Details</h1>
+            <form>
+                <input type="text" class="form-control mb-3" placeholder="Enter Your Full Name" />
+                <input type="text" class="form-control mb-3" placeholder="Enter Your Contact Number" />
+                <textarea class="form-control mb-5" placeholder="Enter Your Address"></textarea>
+                <button class="btn btn-md btn-dark mt-3">Place Order</button>
+            </form>
+        </div>
+    </div>
+</div>

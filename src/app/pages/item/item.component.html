@@ -1,0 +1,20 @@
+<div class="container mt-5 mb-5">
+
+    <div class="row">
+        
+        <div class="col-lg-4" *ngFor="let td of itemData">
+
+            <div class="itembox mb-3 mt-3">
+                <img src="{{td.itemImg}}">
+                <h1>{{td.itemName}}</h1>
+                <p>{{td.itemDetails}}</p>
+                <p>{{td.itemPrice | currency :'LKR '}}</p>
+                <br>
+                <a class="buybtn" [routerLink]="['/item',td.id]">Buy Now &nbsp;<i class="bi bi-bag"></i></a>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
