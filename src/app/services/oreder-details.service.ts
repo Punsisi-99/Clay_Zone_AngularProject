@@ -15,42 +15,42 @@ export class OrederDetailsService {
       itemName:"Wind chains",
       itemDetails:"swings with winds",
       itemPrice:900,
-      itemImg:"../src/assets/item_1.jpg"
+      itemImg:"../../../assets/item_1.jpg"
     },
     {
       id:2,
       itemName:"Decorative Vases",
       itemDetails:"this vase can use for decorate inside your home",
       itemPrice:2000,
-      itemImg:"../src/assets/item_2.png"
+      itemImg:"../../../assets/item_2.png"
     },
     {
       id:3,
       itemName:"Table lamp covers",
       itemDetails:"can use to decorate your table lamp ",
       itemPrice:1600,
-      itemImg:"../src/assets/item_3.jpg"
+      itemImg:"../../../assets/item_3.jpg"
     },
     {
       id:4,
       itemName:"Tea Cups",
       itemDetails:"6 cups in one bunch",
       itemPrice:3000,
-      itemImg:"../src/assets/iteam_4.jpg"
+      itemImg:"../../../assets/iteam_4.jpg"
     },
     {
       id:5,
       itemName:"Water Bottle",
       itemDetails:"healthy bottle and drink cool water",
       itemPrice:2400,
-      itemImg:"../src/assets/item_5.jpg"
+      itemImg:"../../../assets/item_5.jpg"
     },
     {
       id:6,
       itemName:"Plate",
       itemDetails:"take your food without any diseases",
       itemPrice:700,
-      itemImg:"../src/assets/item_6.jpg"
+      itemImg:"../../../assets/item_6.jpg"
     },
   ]
 }
